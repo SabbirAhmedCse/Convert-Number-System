@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    font-family: Time New Romans;
+    text-decoration: none;
+}
+
+body{
+    background-color: #fafafa;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+.numberSystem{
+    width: 100%;
+    margin: 20px auto;
+}
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.headingType {
+    font-size: 25px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+.title{
+    padding-bottom: 10px;
+}
+
+input[type=text],
+input[type=number] {
+    width: 100%;
+    font-size: 17px;
+    font-family: Time New Romans;
+    color: #808080;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #dfdfdf;
+    outline: none;
+    border-radius: 4px;
+    resize: vertical;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+label {
+    padding: 5px 5px 5px 0;
+    font-size: 19px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+
+.col-25 {
+    float: left;
+    width: 45%;
+    margin-top: 6px;
+}
+.cor-50{
+    width: 45%;
+    float: right;
+    margin-top: 6px;
+}
+.col-50{
+    width: 45%;
+    float: left;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: right;
+    width: 45%;
+    margin-top: 6px;
+}
+.btn-row{
+    padding-top: 10px;
+}
+.btn-row .btn-reset{
+    background-color: #FE2727;
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.btn-row .btn-pdf{
+    background-color: #FE2727;
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*-----------------------
+        Footer text
+-------------------------*/
+.footer-area {
+    background-color: #181e2c;
+    padding: 15px 0;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    color: #e5ebf8;
+}
+
+.footer-area a {
+    padding: 5px;
+    margin: 5px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.footer-area a:hover {
+    background-color: #e5ebf8;
+    color: #181e2c;
+    border-radius: 4px;
+}
+
+.footer-area p {
+    margin-top: 20px;
+}
+
+/*----------------------------------
+            bottom-to-top
+----------------------------------*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: 1px solid red;
+  outline: none;
+  background-color: rgba(0,0,0,0.1);
+  color: red;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#myBtn:hover {
+  background-color: red;
+    border: none;
+    color: #fff;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Number System</title>
+
+    <!--CSS links-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Scripts Links-->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="row numberSystem">
+        <section class="card col-11 col-sm-10 col-md-8 col-lg-5  container shadow">
+            <div class="card-body">
+                <h1 class="headingType text-center">Convert Number System</h1>
+                <hr class="hr-header">
+                <form>
+                    <h5 class="title">Decimal</h5>
+                    <input type="text" id="decimalId" onclick="this.select()" maxlength="20" onkeyup="decimal()"  value="0">
+                    <h5 class="title">Binary</h5>
+                    <input type="text" id="binaryId" onclick="this.select()" maxlength="20" onkeyup="binary()" value="0">
+                    <h5 class="title">Octal</h5>
+                    <input type="text" id="octalId" onclick="this.select()" maxlength="20" onkeyup="octal()" value="0">
+                    <h5 class="title">Hexadecimal</h5>
+                    <input type="text" id="hexadecimalId" onclick="this.select()" maxlength="20" onkeyup="hexaDecimal()" value="0">
+                    <hr class="hr-footer">
+                    <h5 class="title">1's Compliment</h5>
+                    <input type="number" onclick="this.select()" readonly>
+                    <h5 class="title">2's Compliment</h5>
+                    <input type="number" onclick="this.select()" readonly>
+                    <div class="btn-row">
+                    <button id="resetId" class="btn-reset" type="reset">Reset</button>
+                    <button id="resetId" class="btn-pdf" type="reset" onclick="reset()">Download</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    <section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    </section>
+    <footer class="footer-area" >
+          <div class="contact-link">
+              <a href="https://web.facebook.com/sabbir.cse17">Facebook</a>
+              <a href="https://twitter.com/SabbirA29538086">Twitter</a>
+              <a href="https://github.com/SabbirAhmedCse">Github</a>
+              <a href="https://www.instagram.com/sabbircse17/">Instagram</a>
+              <a href="https://www.linkedin.com/in/sabbir-ahmed-102170190/">LinkedIn</a>
+          </div>
+           <p>&copy; Copyright 2020 Sabbir | All Rights Reserved</p>
+       </footer>
+       
+
+    <!--Custom Script-->
+
+    <script src="Scripts/customScript.js"></script>
+</body>
+
+</html>
